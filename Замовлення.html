@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Оформлення замовлення</title>
+</head>
+<style>
+body{
+  background-color: #008000;
+  color: white;
+}
+</style>
+<body>
+<h1>Оформлення замовлення</h1>
+<p>Ім'я:<input> </p>
+<p>Телефон:<input> </p>
+<p>Адреса одержувача: <input></p>
+<p>Характеристики продукції:<p>
+  <form id="orForm">
+    <label for="prodType">Вид продукції:</label>
+    <select id="prodType">
+      <option value="1">Міріс</option>
+      <option value="2">КоКо ШаНеЛь</option>
+      <option value="3">Орза</option>
+    </select><br><br>
+    <label for="quantity">Кількість:</label>
+    <input type="number" id="quantity" name="quantity"><br><br>
+    <label for="Infa">Додаткова інформація:</label><br>
+    <textarea id="addInfa" name="addInfa" rows="4" cols="50"></textarea><br><br>
+    <button type="button" onclick="Skunytu()">Скинути</button>
+    <button type="button" onclick="Zamovutu()">Замовити</button>
+</form>
+<p>Підпис: РОМАШКО АРТЕМ </p>
+</body>
+
+</html>
